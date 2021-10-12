@@ -1,0 +1,3 @@
+[default]
+# Set log level. Possible values are: critical, error, warning, info, debug.
+log_level = "info"

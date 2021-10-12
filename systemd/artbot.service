@@ -1,0 +1,11 @@
+[Unit]
+Description=Telegram artbot for remote fixtures control
+After=network.target
+
+[Service]
+Restart=always
+Type=simple
+ExecStart=/usr/bin/artbot
+
+[Install]
+WantedBy=multi-user.target
